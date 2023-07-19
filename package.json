@@ -2,10 +2,18 @@
   "name": "%package-name%",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "coverage": "jest --coverage --no-cache",
+    "build": "rm -rdf ./dist && tsc --project tsconfig.build.json",
+    "prepublishOnly": "npm run build"
   },
-  "author": "%author%",
-  "license": "MIT"
+"author": "%author%",
+  "license": "MIT",
+  "dependencies": {
+    "ts-patch": "^3.0.1",
+    "typescript": "^5.1.6",
+    "typescript-transform-paths": "^3.4.6"
+  }
 }
