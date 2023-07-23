@@ -1,10 +1,10 @@
 {
   "name": "%package-name%",
   "version": "1.0.0",
-  "description": "",
+  "description": "%description%",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "coverage": "jest --coverage --no-cache",
     "build": "rm -rdf ./dist && tsc --project tsconfig.build.json",
     "lint": "eslint --ext .js,.ts .",
@@ -14,12 +14,10 @@
   },
   "author": "%author%",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "ts-patch": "^3.0.1",
     "typescript": "^5.1.6",
-    "typescript-transform-paths": "^3.4.6"
-  },
-  "devDependencies": {
+    "typescript-transform-paths": "^3.4.6",
     "@types/jest": "^29.5.3",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
