@@ -9,7 +9,7 @@ A basic lightweight NPM Package setup to ensure a nice DX.
 - Format on save ([VSCode](https://code.visualstudio.com/))
 - Testing ([Jest](https://jestjs.io/))
 - Pre commit hook checking tests and linter ([Husky](https://typicode.github.io/husky/))
-- Absolute Import aliases (Using [typescript-transform-paths](https://www.npmjs.com/package/typescript-transform-paths)
+- Absolute Import aliases (Using [typescript-transform-paths](https://www.npmjs.com/package/typescript-transform-paths))
 
 None of these features impact the final build, they are all development dependencies, so you don't have to worry about a big bundle size.
 
