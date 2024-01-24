@@ -4,7 +4,7 @@ A basic lightweight NPM Package setup to ensure a nice DX.
 
 ## Features
 
-- [Typescript] (https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+- [Typescript](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 - Linter ([Eslint](https://eslint.org/) + [Prettier](https://prettier.io/))
 - Format on save ([VSCode](https://code.visualstudio.com/))
 - Testing ([Jest](https://jestjs.io/))
