@@ -36,9 +36,9 @@ import Asset from '@/assets';
 
 To start using this setup clone this repository
 
-´´´
+```
 git clone git@github.com:frontend-army/package-setup.git
-´´´
+```
 
 One cloned, you must change the values wrapped between `%` in the package json with your own values:
 - package-name
